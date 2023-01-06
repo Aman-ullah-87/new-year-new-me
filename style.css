@@ -35,12 +35,17 @@ header button {
 }
 .abouts {
   display: flex;
-  margin: 100px 250px;
+  margin: 50px 250px;
   gap: 40px;
 }
 .img img {
   height: 500px;
 
+  width: 100%;
+}
+.me-img img {
+  height: 500px;
+  margin: 100px 0px;
   width: 100%;
 }
 .about {
