@@ -1,0 +1,169 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  background-image: url(/images/banner/banner2.png);
+  height: 600px;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: right;
+}
+.hero {
+  padding: 100px 250px;
+}
+header h1 {
+  font-size: 40px;
+  font-weight: bold;
+}
+header p {
+  padding: 20px 0px;
+  font-size: 16px;
+  font-weight: 300;
+  opacity: 0.7;
+  text-align: right;
+}
+header button {
+  padding: 12px 16px;
+  background: #f15b22;
+  color: white;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+}
+.abouts {
+  display: flex;
+  margin: 100px 250px;
+  gap: 40px;
+}
+.img img {
+  height: 500px;
+
+  width: 100%;
+}
+.about {
+  padding: 150px 80px;
+}
+.about h1 {
+  font-size: 40px;
+  font-weight: bold;
+}
+.about p {
+  padding: 20px 0px;
+  font-size: 16px;
+  font-weight: 300;
+  opacity: 0.7;
+  line-height: 25px;
+}
+.about-list {
+  display: flex;
+  gap: 8px;
+}
+.my-plans {
+  margin: 0px 250px;
+  text-align: center;
+}
+.my-plans h1 {
+  font-size: 40px;
+  font-weight: bold;
+}
+.cards {
+  display: flex;
+  margin: 35px 0px;
+  gap: 70px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.card img {
+  height: 60px;
+  width: 60px;
+}
+.card-title {
+  padding: 10px;
+  font-size: 25px;
+  font-weight: bold;
+}
+.card p {
+  padding: 20px 0px;
+  font-size: 16px;
+  font-weight: 300;
+  opacity: 0.7;
+  line-height: 25px;
+}
+.mindset {
+  height: 300px;
+  margin: 80px 250px;
+
+  background-repeat: no-repeat;
+  border-radius: 5px;
+  background-image: linear-gradient(
+      90deg,
+      #f15b22 0%,
+      rgba(241, 91, 34, 0) 100%
+    ),
+    url("/images/watch.png");
+}
+.mindset h1 {
+  font-size: 40px;
+  font-weight: bold;
+  color: white;
+  padding: 40px 15px;
+}
+.btn {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+ padding: 12px 16px;
+ margin: 0px 15px;
+  color: #f15b22;
+  border: none;
+  border-radius: 5px;
+}
+footer{
+    display: flex;
+    color: white;
+    background: black;
+    height: 330px;
+    justify-content: space-between;
+    padding: 80px 250px;
+}
+footer h3{
+    font-size: 25px;
+    padding: 10px;
+    font-weight: bold;
+}
+footer p{
+    font-size: 16px;
+    padding: 5px 10px;
+   
+}
+.socials{
+    padding: 10px 10px;
+}
+footer h4{
+    font-size: 25px;
+    padding: 10px;
+    font-weight: bold;
+}
+.right input{
+display: block;
+margin: 20px 10px;
+padding: 12px;
+width: 100%;
+color: black;
+background: black;
+border: 1px solid white;
+border-radius: 5px;
+}
+.right input:focus{
+    outline: none;
+
+}
+.right input::placeholder{
+    color: white;
+
+}
