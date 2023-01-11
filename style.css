@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 header {
-  background-image: url(/images/banner/banner2.png);
+  background-image: url(./images/banner/banner2.png);
   height: 600px;
   width: 100%;
   background-size: cover;
@@ -109,7 +109,7 @@ header button {
       #f15b22 0%,
       rgba(241, 91, 34, 0) 100%
     ),
-    url("/images/watch.png");
+    url("./images/watch.png");
 }
 .mindset h1 {
   font-size: 40px;
